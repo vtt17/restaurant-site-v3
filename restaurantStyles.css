@@ -1,0 +1,54 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #F2F2F2;
+	min-height: 100%;
+}
+
+.title {
+	min-height: 70px;
+	background-color: #0B0B61;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	border-bottom: #a8491d 3px solid;
+	font-family: Arial black, courier, sans-serif;
+	font-style: italic;
+}
+.highlight {
+	color: #FF0040;
+}
+.pagelink {
+	min-height: 30px;
+	background-color: white;
+	padding-top: 10px;
+	border-bottom: #a8491d 3px solid;
+}
+.pagelink a {
+	color: #B40404;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.pagelink ul {
+	margin: 0;
+	padding: 0;
+}
+.pagelink li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+.pagelink #current, .lable {
+	font-weight: bold;
+}
+form {
+	padding-bottom: 30px;
+}
+.addressinfo {
+	text-align: center;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	background-color: #0B0B61;
+	color: white;
+}
